@@ -1,13 +1,12 @@
 #include <iostream>
 #include <algorithm>
 #include <vector>
-#include <set>
 #include <chrono>
 using namespace std;
 
-/*********** 
- * CONSTANTS
- ***********/
+/****************************
+* CONSTANTS AND DEFINITIONS *
+****************************/
 #define UNDEF 0
 #define TRUE 1
 #define FALSE -1
@@ -15,27 +14,12 @@ using namespace std;
 const int ALL_DEFINED = 0;
 const int DECISION_MARK = 0;
 
-/***********
- * DEFINITIONS AND STRUCTS
- ***********/
 typedef vector<int> Clause;
 typedef vector<Clause*> Clause_Appear;
 
-struct Heuristic {
-  uint literal;
-  int priority;
-};
-
-struct Heuristic_comparator {
-  inline bool operator() (const Heuristic& h1, const Heuristic& h2) const {
-    if (h1.priority != h2.priority) return h1.priority > h2.priority;
-    return h1.literal < h2.literal;
-  }
-};
-
-/***********
- * DATA STRUCTURES AND GLOBALS
- ***********/
+/******************************
+* DATA STRUCTURES AND GLOBALS *
+******************************/
 uint num_vars;
 vector<int> model;
 
@@ -51,25 +35,24 @@ vector<int> model_stack;
 vector<Clause_Appear> clauses_where_appear_positive;
 vector<Clause_Appear> clauses_where_appear_negative;
 
-vector<int> heuristic_value;
-set<Heuristic, Heuristic_comparator> heuristic_order;
+vector<int> heuristic_order;
 
 // Statistics
 chrono::time_point<chrono::system_clock> t_start, t_end;
 unsigned long propagations_count, decisions_count;
 
-/***********
- * HELPERS
- ***********/
+/**********
+* HELPERS *
+**********/
 inline int current_value_in_model(int lit) {
-  unsigned mask = -(lit < 0);
+  uint mask = -(lit < 0);
   uint abs_lit = (lit ^ mask) - mask;
   int value_in_model = model[abs_lit];
   return (value_in_model ^ mask) - mask;
 }
 
 inline void set_literal_to_true(int lit) {
-  unsigned mask = -(lit < 0);
+  uint mask = -(lit < 0);
   uint abs_lit = (lit ^ mask) - mask;
   model[abs_lit] = mask + (mask == 0);
   model_stack.push_back(lit);
@@ -117,9 +100,9 @@ inline void initial_clauses() {
   }
 }
 
-/***********
- * INITIALIZATIONS
- ***********/
+/******************
+* INITIALIZATIONS *
+******************/
 inline void read_clauses() {
   // Skip comments
   char c = cin.get();
@@ -135,7 +118,7 @@ inline void read_clauses() {
 inline void init_data_structures() {
   clauses.resize(num_clauses);
   model.resize(num_vars + 1, UNDEF);
-  heuristic_value.resize(num_vars + 1, UNDEF);
+  heuristic_order.resize(num_vars + 1, UNDEF);
   clauses_where_appear_positive.resize(num_vars + 1);
   clauses_where_appear_negative.resize(num_vars + 1);
 }
@@ -148,13 +131,9 @@ inline void fill_data_structures() {
         ? clauses_where_appear_positive[lit].push_back(&clauses[i])
         : clauses_where_appear_negative[-lit].push_back(&clauses[i]);
       clauses[i].push_back(lit);
-      ++heuristic_value[abs(lit)];
+      ++heuristic_order[abs(lit)];
     }
   }
-
-  for (uint i = 1; i <= num_vars; ++i) {
-    heuristic_order.insert({i, heuristic_value[i]});
-  } heuristic_value.clear();
   index_of_next_lit_to_propagate = decision_level = decisions_count = propagations_count = 0;
 }
 
@@ -165,13 +144,19 @@ inline void init_sat() {
   fill_data_structures();
 }
 
-/***********
- * SOLVER METHODS
- ***********/
+/*****************
+* SOLVER METHODS *
+*****************/
 inline int get_next_decision_literal_heuristic() {
-  for (set<Heuristic>::iterator it = heuristic_order.begin(); it != heuristic_order.end(); ++it) {
-    if (model[it->literal] == UNDEF) return it->literal;
-  } return ALL_DEFINED;
+  uint lit;
+  int max_priority = -1;
+  for (uint i = 0; i < num_vars; ++i) {
+    if (model[i] == UNDEF and heuristic_order[i] > max_priority) {
+      max_priority = heuristic_order[i];
+      lit = i;
+    }
+  }
+  return max_priority == -1 ? ALL_DEFINED : lit;
 }
 
 inline bool propagate() {
@@ -200,11 +185,7 @@ inline bool propagate() {
       if (num_undefs == 1) {
         set_literal_to_true(last_lit_undef);
       } else {
-        set<Heuristic>::iterator it = heuristic_order.begin();
-        advance(it, propagated_variable - 1);
-        Heuristic h = *it;
-        heuristic_order.erase(it);
-        heuristic_order.insert(h);
+        heuristic_order[propagated_variable]++;
         return true;
       }
     }
@@ -223,6 +204,7 @@ inline bool propagate_gives_conflict() {
 
 inline void decide_positive_literal(int lit) {
   model_stack.push_back(DECISION_MARK);
+  ++decisions_count;
   ++index_of_next_lit_to_propagate;
   ++decision_level;
   set_literal_to_true(lit);
@@ -246,13 +228,15 @@ void backtrack() {
   decide_negative_literal(lit);
 }
 
-/***********
- * MAIN
- ***********/
+/*******
+* MAIN *
+********/
 int main() { 
   init_sat();
   initial_clauses();
-  while (true) { // DPLL algorithm (Davis–Putnam–Logemann–Loveland)
+
+  // DPLL algorithm (Davis–Putnam–Logemann–Loveland)
+  while (true) {
     while (propagate_gives_conflict()) {
       if (decision_level == 0) print_and_finish(false);
       backtrack();
@@ -264,7 +248,6 @@ int main() {
       print_and_finish(true);
     }
 
-    ++decisions_count;
     decide_positive_literal(decision_lit);
   }
 }
