@@ -78,14 +78,13 @@ inline void print_and_finish(bool sat) {
   t_end = chrono::system_clock::now();
   chrono::duration<double> elapsed_seconds = t_end - t_start;
   string sat_insat = sat ? "SATISFIABLE" : "UNSATISFIABLE";
-  cout << "=============[ Problem Statistics ]==============" << endl;
+  cout << "Problem Statistics ]==============" << endl;
   cout << "|  Number of variables: " << num_vars << endl;
   cout << "|  Number of clauses: " << num_clauses << endl;
   cout << "|  SAT/INSAT: " << sat_insat << endl;
   cout << "|  Time: " << elapsed_seconds.count() << endl;
   cout << "|  Decisions: " << decisions_count << endl;
-  cout << "|  Propagations: " << propagations_count << endl;
-  cout << "=================================================" << endl;
+  cout << "|  Propagations: " << propagations_count << endl << endl;
   exit(sat ? 20 : 10);
 }
 

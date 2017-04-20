@@ -1,0 +1,400 @@
+=============[vars-100-1.cnf Problem Statistics ]==============
+|  Number of variables: 100
+|  Number of clauses: 425
+|  SAT/INSAT: SATISFIABLE
+|  Time: 0.017886
+|  Decisions: 317
+|  Propagations: 6707
+
+=============[vars-100-10.cnf Problem Statistics ]==============
+|  Number of variables: 100
+|  Number of clauses: 425
+|  SAT/INSAT: UNSATISFIABLE
+|  Time: 0.028151
+|  Decisions: 1114
+|  Propagations: 20040
+
+=============[vars-100-2.cnf Problem Statistics ]==============
+|  Number of variables: 100
+|  Number of clauses: 425
+|  SAT/INSAT: SATISFIABLE
+|  Time: 0.015345
+|  Decisions: 45
+|  Propagations: 944
+
+=============[vars-100-3.cnf Problem Statistics ]==============
+|  Number of variables: 100
+|  Number of clauses: 425
+|  SAT/INSAT: UNSATISFIABLE
+|  Time: 0.023994
+|  Decisions: 1215
+|  Propagations: 23161
+
+=============[vars-100-4.cnf Problem Statistics ]==============
+|  Number of variables: 100
+|  Number of clauses: 425
+|  SAT/INSAT: UNSATISFIABLE
+|  Time: 0.021736
+|  Decisions: 1256
+|  Propagations: 25671
+
+=============[vars-100-5.cnf Problem Statistics ]==============
+|  Number of variables: 100
+|  Number of clauses: 425
+|  SAT/INSAT: SATISFIABLE
+|  Time: 0.01208
+|  Decisions: 313
+|  Propagations: 6402
+
+=============[vars-100-6.cnf Problem Statistics ]==============
+|  Number of variables: 100
+|  Number of clauses: 425
+|  SAT/INSAT: SATISFIABLE
+|  Time: 0.024614
+|  Decisions: 1991
+|  Propagations: 42561
+
+=============[vars-100-7.cnf Problem Statistics ]==============
+|  Number of variables: 100
+|  Number of clauses: 425
+|  SAT/INSAT: SATISFIABLE
+|  Time: 0.013499
+|  Decisions: 325
+|  Propagations: 6471
+
+=============[vars-100-8.cnf Problem Statistics ]==============
+|  Number of variables: 100
+|  Number of clauses: 425
+|  SAT/INSAT: SATISFIABLE
+|  Time: 0.01543
+|  Decisions: 326
+|  Propagations: 6968
+
+=============[vars-100-9.cnf Problem Statistics ]==============
+|  Number of variables: 100
+|  Number of clauses: 425
+|  SAT/INSAT: UNSATISFIABLE
+|  Time: 0.018283
+|  Decisions: 754
+|  Propagations: 15112
+
+=============[vars-150-1.cnf Problem Statistics ]==============
+|  Number of variables: 150
+|  Number of clauses: 638
+|  SAT/INSAT: SATISFIABLE
+|  Time: 0.047119
+|  Decisions: 2883
+|  Propagations: 76303
+
+=============[vars-150-10.cnf Problem Statistics ]==============
+|  Number of variables: 150
+|  Number of clauses: 638
+|  SAT/INSAT: UNSATISFIABLE
+|  Time: 0.120643
+|  Decisions: 12763
+|  Propagations: 336916
+
+=============[vars-150-2.cnf Problem Statistics ]==============
+|  Number of variables: 150
+|  Number of clauses: 638
+|  SAT/INSAT: SATISFIABLE
+|  Time: 0.103903
+|  Decisions: 9736
+|  Propagations: 256665
+
+=============[vars-150-3.cnf Problem Statistics ]==============
+|  Number of variables: 150
+|  Number of clauses: 638
+|  SAT/INSAT: SATISFIABLE
+|  Time: 0.106712
+|  Decisions: 12106
+|  Propagations: 315325
+
+=============[vars-150-4.cnf Problem Statistics ]==============
+|  Number of variables: 150
+|  Number of clauses: 638
+|  SAT/INSAT: SATISFIABLE
+|  Time: 0.071518
+|  Decisions: 7331
+|  Propagations: 195143
+
+=============[vars-150-5.cnf Problem Statistics ]==============
+|  Number of variables: 150
+|  Number of clauses: 638
+|  SAT/INSAT: UNSATISFIABLE
+|  Time: 0.096081
+|  Decisions: 10810
+|  Propagations: 275594
+
+=============[vars-150-6.cnf Problem Statistics ]==============
+|  Number of variables: 150
+|  Number of clauses: 638
+|  SAT/INSAT: SATISFIABLE
+|  Time: 0.025321
+|  Decisions: 1410
+|  Propagations: 36941
+
+=============[vars-150-7.cnf Problem Statistics ]==============
+|  Number of variables: 150
+|  Number of clauses: 638
+|  SAT/INSAT: UNSATISFIABLE
+|  Time: 0.073447
+|  Decisions: 7792
+|  Propagations: 199982
+
+=============[vars-150-8.cnf Problem Statistics ]==============
+|  Number of variables: 150
+|  Number of clauses: 638
+|  SAT/INSAT: SATISFIABLE
+|  Time: 0.014868
+|  Decisions: 64
+|  Propagations: 1228
+
+=============[vars-150-9.cnf Problem Statistics ]==============
+|  Number of variables: 150
+|  Number of clauses: 638
+|  SAT/INSAT: SATISFIABLE
+|  Time: 0.118217
+|  Decisions: 12294
+|  Propagations: 345129
+
+=============[vars-200-1.cnf Problem Statistics ]==============
+|  Number of variables: 200
+|  Number of clauses: 850
+|  SAT/INSAT: UNSATISFIABLE
+|  Time: 1.25417
+|  Decisions: 108292
+|  Propagations: 3500818
+
+=============[vars-200-10.cnf Problem Statistics ]==============
+|  Number of variables: 200
+|  Number of clauses: 850
+|  SAT/INSAT: UNSATISFIABLE
+|  Time: 1.00224
+|  Decisions: 91999
+|  Propagations: 2941567
+
+=============[vars-200-2.cnf Problem Statistics ]==============
+|  Number of variables: 200
+|  Number of clauses: 850
+|  SAT/INSAT: SATISFIABLE
+|  Time: 0.067398
+|  Decisions: 3395
+|  Propagations: 108367
+
+=============[vars-200-3.cnf Problem Statistics ]==============
+|  Number of variables: 200
+|  Number of clauses: 850
+|  SAT/INSAT: UNSATISFIABLE
+|  Time: 1.0291
+|  Decisions: 97751
+|  Propagations: 3076398
+
+=============[vars-200-4.cnf Problem Statistics ]==============
+|  Number of variables: 200
+|  Number of clauses: 850
+|  SAT/INSAT: UNSATISFIABLE
+|  Time: 0.378271
+|  Decisions: 32156
+|  Propagations: 990497
+
+=============[vars-200-5.cnf Problem Statistics ]==============
+|  Number of variables: 200
+|  Number of clauses: 850
+|  SAT/INSAT: UNSATISFIABLE
+|  Time: 0.559491
+|  Decisions: 56167
+|  Propagations: 1797110
+
+=============[vars-200-6.cnf Problem Statistics ]==============
+|  Number of variables: 200
+|  Number of clauses: 850
+|  SAT/INSAT: SATISFIABLE
+|  Time: 0.5443
+|  Decisions: 54786
+|  Propagations: 1756446
+
+=============[vars-200-7.cnf Problem Statistics ]==============
+|  Number of variables: 200
+|  Number of clauses: 850
+|  SAT/INSAT: UNSATISFIABLE
+|  Time: 2.66722
+|  Decisions: 236175
+|  Propagations: 7734193
+
+=============[vars-200-8.cnf Problem Statistics ]==============
+|  Number of variables: 200
+|  Number of clauses: 850
+|  SAT/INSAT: SATISFIABLE
+|  Time: 0.112937
+|  Decisions: 6009
+|  Propagations: 196738
+
+=============[vars-200-9.cnf Problem Statistics ]==============
+|  Number of variables: 200
+|  Number of clauses: 850
+|  SAT/INSAT: SATISFIABLE
+|  Time: 0.433348
+|  Decisions: 41180
+|  Propagations: 1317098
+
+=============[vars-250-1.cnf Problem Statistics ]==============
+|  Number of variables: 250
+|  Number of clauses: 1063
+|  SAT/INSAT: UNSATISFIABLE
+|  Time: 5.54347
+|  Decisions: 490062
+|  Propagations: 18053350
+
+=============[vars-250-10.cnf Problem Statistics ]==============
+|  Number of variables: 250
+|  Number of clauses: 1063
+|  SAT/INSAT: SATISFIABLE
+|  Time: 0.888811
+|  Decisions: 61953
+|  Propagations: 2352823
+
+=============[vars-250-2.cnf Problem Statistics ]==============
+|  Number of variables: 250
+|  Number of clauses: 1063
+|  SAT/INSAT: UNSATISFIABLE
+|  Time: 6.28126
+|  Decisions: 813763
+|  Propagations: 29819928
+
+=============[vars-250-3.cnf Problem Statistics ]==============
+|  Number of variables: 250
+|  Number of clauses: 1063
+|  SAT/INSAT: SATISFIABLE
+|  Time: 1.98624
+|  Decisions: 395756
+|  Propagations: 14779881
+
+=============[vars-250-4.cnf Problem Statistics ]==============
+|  Number of variables: 250
+|  Number of clauses: 1063
+|  SAT/INSAT: SATISFIABLE
+|  Time: 1.85049
+|  Decisions: 361241
+|  Propagations: 13616528
+
+=============[vars-250-5.cnf Problem Statistics ]==============
+|  Number of variables: 250
+|  Number of clauses: 1063
+|  SAT/INSAT: UNSATISFIABLE
+|  Time: 3.67964
+|  Decisions: 739407
+|  Propagations: 27563670
+
+=============[vars-250-6.cnf Problem Statistics ]==============
+|  Number of variables: 250
+|  Number of clauses: 1063
+|  SAT/INSAT: UNSATISFIABLE
+|  Time: 6.69972
+|  Decisions: 1402427
+|  Propagations: 51822623
+
+=============[vars-250-7.cnf Problem Statistics ]==============
+|  Number of variables: 250
+|  Number of clauses: 1063
+|  SAT/INSAT: SATISFIABLE
+|  Time: 0.469242
+|  Decisions: 90070
+|  Propagations: 3393091
+
+=============[vars-250-8.cnf Problem Statistics ]==============
+|  Number of variables: 250
+|  Number of clauses: 1063
+|  SAT/INSAT: UNSATISFIABLE
+|  Time: 4.13706
+|  Decisions: 847844
+|  Propagations: 31055484
+
+=============[vars-250-9.cnf Problem Statistics ]==============
+|  Number of variables: 250
+|  Number of clauses: 1063
+|  SAT/INSAT: SATISFIABLE
+|  Time: 1.56584
+|  Decisions: 315316
+|  Propagations: 11677510
+
+=============[vars-300-1.cnf Problem Statistics ]==============
+|  Number of variables: 300
+|  Number of clauses: 1275
+|  SAT/INSAT: SATISFIABLE
+|  Time: 1.36274
+|  Decisions: 235963
+|  Propagations: 10003867
+
+=============[vars-300-10.cnf Problem Statistics ]==============
+|  Number of variables: 300
+|  Number of clauses: 1275
+|  SAT/INSAT: SATISFIABLE
+|  Time: 15.7306
+|  Decisions: 2833069
+|  Propagations: 123150516
+
+=============[vars-300-2.cnf Problem Statistics ]==============
+|  Number of variables: 300
+|  Number of clauses: 1275
+|  SAT/INSAT: UNSATISFIABLE
+|  Time: 37.7668
+|  Decisions: 6551139
+|  Propagations: 276709474
+
+=============[vars-300-3.cnf Problem Statistics ]==============
+|  Number of variables: 300
+|  Number of clauses: 1275
+|  SAT/INSAT: UNSATISFIABLE
+|  Time: 15.9943
+|  Decisions: 2907611
+|  Propagations: 120669156
+
+=============[vars-300-4.cnf Problem Statistics ]==============
+|  Number of variables: 300
+|  Number of clauses: 1275
+|  SAT/INSAT: UNSATISFIABLE
+|  Time: 46.2556
+|  Decisions: 8178567
+|  Propagations: 340437394
+
+=============[vars-300-5.cnf Problem Statistics ]==============
+|  Number of variables: 300
+|  Number of clauses: 1275
+|  SAT/INSAT: SATISFIABLE
+|  Time: 23.1742
+|  Decisions: 4102282
+|  Propagations: 173864324
+
+=============[vars-300-6.cnf Problem Statistics ]==============
+|  Number of variables: 300
+|  Number of clauses: 1275
+|  SAT/INSAT: UNSATISFIABLE
+|  Time: 20.936
+|  Decisions: 3774238
+|  Propagations: 158940592
+
+=============[vars-300-7.cnf Problem Statistics ]==============
+|  Number of variables: 300
+|  Number of clauses: 1275
+|  SAT/INSAT: SATISFIABLE
+|  Time: 5.11428
+|  Decisions: 847657
+|  Propagations: 37065281
+
+=============[vars-300-8.cnf Problem Statistics ]==============
+|  Number of variables: 300
+|  Number of clauses: 1275
+|  SAT/INSAT: UNSATISFIABLE
+|  Time: 34.7403
+|  Decisions: 6117720
+|  Propagations: 257723653
+
+=============[vars-300-9.cnf Problem Statistics ]==============
+|  Number of variables: 300
+|  Number of clauses: 1275
+|  SAT/INSAT: SATISFIABLE
+|  Time: 8.79448
+|  Decisions: 1541334
+|  Propagations: 64489926
+
