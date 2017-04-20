@@ -2,7 +2,7 @@
 |  Number of variables: 100
 |  Number of clauses: 425
 |  SAT/INSAT: SATISFIABLE
-|  Time: 0.017886
+|  Time: 0.00216392
 |  Decisions: 317
 |  Propagations: 6707
 
@@ -10,7 +10,7 @@
 |  Number of variables: 100
 |  Number of clauses: 425
 |  SAT/INSAT: UNSATISFIABLE
-|  Time: 0.028151
+|  Time: 0.00415669
 |  Decisions: 1114
 |  Propagations: 20040
 
@@ -18,7 +18,7 @@
 |  Number of variables: 100
 |  Number of clauses: 425
 |  SAT/INSAT: SATISFIABLE
-|  Time: 0.015345
+|  Time: 0.00154821
 |  Decisions: 45
 |  Propagations: 944
 
@@ -26,7 +26,7 @@
 |  Number of variables: 100
 |  Number of clauses: 425
 |  SAT/INSAT: UNSATISFIABLE
-|  Time: 0.023994
+|  Time: 0.00423635
 |  Decisions: 1215
 |  Propagations: 23161
 
@@ -34,7 +34,7 @@
 |  Number of variables: 100
 |  Number of clauses: 425
 |  SAT/INSAT: UNSATISFIABLE
-|  Time: 0.021736
+|  Time: 0.00467182
 |  Decisions: 1256
 |  Propagations: 25671
 
@@ -42,7 +42,7 @@
 |  Number of variables: 100
 |  Number of clauses: 425
 |  SAT/INSAT: SATISFIABLE
-|  Time: 0.01208
+|  Time: 0.00207216
 |  Decisions: 313
 |  Propagations: 6402
 
@@ -50,7 +50,7 @@
 |  Number of variables: 100
 |  Number of clauses: 425
 |  SAT/INSAT: SATISFIABLE
-|  Time: 0.024614
+|  Time: 0.00649733
 |  Decisions: 1991
 |  Propagations: 42561
 
@@ -58,7 +58,7 @@
 |  Number of variables: 100
 |  Number of clauses: 425
 |  SAT/INSAT: SATISFIABLE
-|  Time: 0.013499
+|  Time: 0.00217769
 |  Decisions: 325
 |  Propagations: 6471
 
@@ -66,7 +66,7 @@
 |  Number of variables: 100
 |  Number of clauses: 425
 |  SAT/INSAT: SATISFIABLE
-|  Time: 0.01543
+|  Time: 0.00221737
 |  Decisions: 326
 |  Propagations: 6968
 
@@ -74,7 +74,7 @@
 |  Number of variables: 100
 |  Number of clauses: 425
 |  SAT/INSAT: UNSATISFIABLE
-|  Time: 0.018283
+|  Time: 0.00318687
 |  Decisions: 754
 |  Propagations: 15112
 
@@ -82,7 +82,7 @@
 |  Number of variables: 150
 |  Number of clauses: 638
 |  SAT/INSAT: SATISFIABLE
-|  Time: 0.047119
+|  Time: 0.0114127
 |  Decisions: 2883
 |  Propagations: 76303
 
@@ -90,7 +90,7 @@
 |  Number of variables: 150
 |  Number of clauses: 638
 |  SAT/INSAT: UNSATISFIABLE
-|  Time: 0.120643
+|  Time: 0.0449329
 |  Decisions: 12763
 |  Propagations: 336916
 
@@ -98,7 +98,7 @@
 |  Number of variables: 150
 |  Number of clauses: 638
 |  SAT/INSAT: SATISFIABLE
-|  Time: 0.103903
+|  Time: 0.0340741
 |  Decisions: 9736
 |  Propagations: 256665
 
@@ -106,7 +106,7 @@
 |  Number of variables: 150
 |  Number of clauses: 638
 |  SAT/INSAT: SATISFIABLE
-|  Time: 0.106712
+|  Time: 0.0421683
 |  Decisions: 12106
 |  Propagations: 315325
 
@@ -114,7 +114,7 @@
 |  Number of variables: 150
 |  Number of clauses: 638
 |  SAT/INSAT: SATISFIABLE
-|  Time: 0.071518
+|  Time: 0.0264327
 |  Decisions: 7331
 |  Propagations: 195143
 
@@ -122,7 +122,7 @@
 |  Number of variables: 150
 |  Number of clauses: 638
 |  SAT/INSAT: UNSATISFIABLE
-|  Time: 0.096081
+|  Time: 0.0370353
 |  Decisions: 10810
 |  Propagations: 275594
 
@@ -130,7 +130,7 @@
 |  Number of variables: 150
 |  Number of clauses: 638
 |  SAT/INSAT: SATISFIABLE
-|  Time: 0.025321
+|  Time: 0.00643566
 |  Decisions: 1410
 |  Propagations: 36941
 
@@ -138,7 +138,7 @@
 |  Number of variables: 150
 |  Number of clauses: 638
 |  SAT/INSAT: UNSATISFIABLE
-|  Time: 0.073447
+|  Time: 0.0280986
 |  Decisions: 7792
 |  Propagations: 199982
 
@@ -146,7 +146,7 @@
 |  Number of variables: 150
 |  Number of clauses: 638
 |  SAT/INSAT: SATISFIABLE
-|  Time: 0.014868
+|  Time: 0.00197768
 |  Decisions: 64
 |  Propagations: 1228
 
@@ -154,7 +154,7 @@
 |  Number of variables: 150
 |  Number of clauses: 638
 |  SAT/INSAT: SATISFIABLE
-|  Time: 0.118217
+|  Time: 0.0460838
 |  Decisions: 12294
 |  Propagations: 345129
 
@@ -162,7 +162,7 @@
 |  Number of variables: 200
 |  Number of clauses: 850
 |  SAT/INSAT: UNSATISFIABLE
-|  Time: 1.25417
+|  Time: 0.452154
 |  Decisions: 108292
 |  Propagations: 3500818
 
@@ -170,7 +170,7 @@
 |  Number of variables: 200
 |  Number of clauses: 850
 |  SAT/INSAT: UNSATISFIABLE
-|  Time: 1.00224
+|  Time: 0.383953
 |  Decisions: 91999
 |  Propagations: 2941567
 
@@ -178,7 +178,7 @@
 |  Number of variables: 200
 |  Number of clauses: 850
 |  SAT/INSAT: SATISFIABLE
-|  Time: 0.067398
+|  Time: 0.0160423
 |  Decisions: 3395
 |  Propagations: 108367
 
@@ -186,7 +186,7 @@
 |  Number of variables: 200
 |  Number of clauses: 850
 |  SAT/INSAT: UNSATISFIABLE
-|  Time: 1.0291
+|  Time: 0.398075
 |  Decisions: 97751
 |  Propagations: 3076398
 
@@ -194,7 +194,7 @@
 |  Number of variables: 200
 |  Number of clauses: 850
 |  SAT/INSAT: UNSATISFIABLE
-|  Time: 0.378271
+|  Time: 0.130103
 |  Decisions: 32156
 |  Propagations: 990497
 
@@ -202,7 +202,7 @@
 |  Number of variables: 200
 |  Number of clauses: 850
 |  SAT/INSAT: UNSATISFIABLE
-|  Time: 0.559491
+|  Time: 0.23332
 |  Decisions: 56167
 |  Propagations: 1797110
 
@@ -210,7 +210,7 @@
 |  Number of variables: 200
 |  Number of clauses: 850
 |  SAT/INSAT: SATISFIABLE
-|  Time: 0.5443
+|  Time: 0.22568
 |  Decisions: 54786
 |  Propagations: 1756446
 
@@ -218,7 +218,7 @@
 |  Number of variables: 200
 |  Number of clauses: 850
 |  SAT/INSAT: UNSATISFIABLE
-|  Time: 2.66722
+|  Time: 1.00424
 |  Decisions: 236175
 |  Propagations: 7734193
 
@@ -226,7 +226,7 @@
 |  Number of variables: 200
 |  Number of clauses: 850
 |  SAT/INSAT: SATISFIABLE
-|  Time: 0.112937
+|  Time: 0.0282213
 |  Decisions: 6009
 |  Propagations: 196738
 
@@ -234,7 +234,7 @@
 |  Number of variables: 200
 |  Number of clauses: 850
 |  SAT/INSAT: SATISFIABLE
-|  Time: 0.433348
+|  Time: 0.176762
 |  Decisions: 41180
 |  Propagations: 1317098
 
@@ -242,7 +242,7 @@
 |  Number of variables: 250
 |  Number of clauses: 1063
 |  SAT/INSAT: UNSATISFIABLE
-|  Time: 5.54347
+|  Time: 2.39437
 |  Decisions: 490062
 |  Propagations: 18053350
 
@@ -250,7 +250,7 @@
 |  Number of variables: 250
 |  Number of clauses: 1063
 |  SAT/INSAT: SATISFIABLE
-|  Time: 0.888811
+|  Time: 0.312005
 |  Decisions: 61953
 |  Propagations: 2352823
 
@@ -258,7 +258,7 @@
 |  Number of variables: 250
 |  Number of clauses: 1063
 |  SAT/INSAT: UNSATISFIABLE
-|  Time: 6.28126
+|  Time: 3.95538
 |  Decisions: 813763
 |  Propagations: 29819928
 
@@ -266,7 +266,7 @@
 |  Number of variables: 250
 |  Number of clauses: 1063
 |  SAT/INSAT: SATISFIABLE
-|  Time: 1.98624
+|  Time: 1.95108
 |  Decisions: 395756
 |  Propagations: 14779881
 
@@ -274,7 +274,7 @@
 |  Number of variables: 250
 |  Number of clauses: 1063
 |  SAT/INSAT: SATISFIABLE
-|  Time: 1.85049
+|  Time: 1.78746
 |  Decisions: 361241
 |  Propagations: 13616528
 
@@ -282,7 +282,7 @@
 |  Number of variables: 250
 |  Number of clauses: 1063
 |  SAT/INSAT: UNSATISFIABLE
-|  Time: 3.67964
+|  Time: 3.56403
 |  Decisions: 739407
 |  Propagations: 27563670
 
@@ -290,7 +290,7 @@
 |  Number of variables: 250
 |  Number of clauses: 1063
 |  SAT/INSAT: UNSATISFIABLE
-|  Time: 6.69972
+|  Time: 6.75506
 |  Decisions: 1402427
 |  Propagations: 51822623
 
@@ -298,7 +298,7 @@
 |  Number of variables: 250
 |  Number of clauses: 1063
 |  SAT/INSAT: SATISFIABLE
-|  Time: 0.469242
+|  Time: 0.439529
 |  Decisions: 90070
 |  Propagations: 3393091
 
@@ -306,7 +306,7 @@
 |  Number of variables: 250
 |  Number of clauses: 1063
 |  SAT/INSAT: UNSATISFIABLE
-|  Time: 4.13706
+|  Time: 4.02351
 |  Decisions: 847844
 |  Propagations: 31055484
 
@@ -314,7 +314,7 @@
 |  Number of variables: 250
 |  Number of clauses: 1063
 |  SAT/INSAT: SATISFIABLE
-|  Time: 1.56584
+|  Time: 1.51343
 |  Decisions: 315316
 |  Propagations: 11677510
 
@@ -322,7 +322,7 @@
 |  Number of variables: 300
 |  Number of clauses: 1275
 |  SAT/INSAT: SATISFIABLE
-|  Time: 1.36274
+|  Time: 1.32449
 |  Decisions: 235963
 |  Propagations: 10003867
 
@@ -330,7 +330,7 @@
 |  Number of variables: 300
 |  Number of clauses: 1275
 |  SAT/INSAT: SATISFIABLE
-|  Time: 15.7306
+|  Time: 15.9752
 |  Decisions: 2833069
 |  Propagations: 123150516
 
@@ -338,7 +338,7 @@
 |  Number of variables: 300
 |  Number of clauses: 1275
 |  SAT/INSAT: UNSATISFIABLE
-|  Time: 37.7668
+|  Time: 36.1569
 |  Decisions: 6551139
 |  Propagations: 276709474
 
@@ -346,7 +346,7 @@
 |  Number of variables: 300
 |  Number of clauses: 1275
 |  SAT/INSAT: UNSATISFIABLE
-|  Time: 15.9943
+|  Time: 15.8048
 |  Decisions: 2907611
 |  Propagations: 120669156
 
@@ -354,7 +354,7 @@
 |  Number of variables: 300
 |  Number of clauses: 1275
 |  SAT/INSAT: UNSATISFIABLE
-|  Time: 46.2556
+|  Time: 44.382
 |  Decisions: 8178567
 |  Propagations: 340437394
 
@@ -362,7 +362,7 @@
 |  Number of variables: 300
 |  Number of clauses: 1275
 |  SAT/INSAT: SATISFIABLE
-|  Time: 23.1742
+|  Time: 22.7929
 |  Decisions: 4102282
 |  Propagations: 173864324
 
@@ -370,7 +370,7 @@
 |  Number of variables: 300
 |  Number of clauses: 1275
 |  SAT/INSAT: UNSATISFIABLE
-|  Time: 20.936
+|  Time: 20.7996
 |  Decisions: 3774238
 |  Propagations: 158940592
 
@@ -378,7 +378,7 @@
 |  Number of variables: 300
 |  Number of clauses: 1275
 |  SAT/INSAT: SATISFIABLE
-|  Time: 5.11428
+|  Time: 4.83448
 |  Decisions: 847657
 |  Propagations: 37065281
 
@@ -386,7 +386,7 @@
 |  Number of variables: 300
 |  Number of clauses: 1275
 |  SAT/INSAT: UNSATISFIABLE
-|  Time: 34.7403
+|  Time: 33.7874
 |  Decisions: 6117720
 |  Propagations: 257723653
 
@@ -394,7 +394,7 @@
 |  Number of variables: 300
 |  Number of clauses: 1275
 |  SAT/INSAT: SATISFIABLE
-|  Time: 8.79448
+|  Time: 8.45124
 |  Decisions: 1541334
 |  Propagations: 64489926
 
