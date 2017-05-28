@@ -4,6 +4,16 @@ flatten([], []).
 flatten([X|L], F) :- flatten(X, F1), flatten(L, F2), append(F1, F2, F), !.
 flatten(X, [X]).
 
+flattenNoRepetitions([], []).
+flattenNoRepetitions([X|L], FNR) :-
+	flattenNoRepetitions(X, F1), flattenNoRepetitions(L, F2),
+	union(F1, F2, FNRU), sort(FNRU, FNR), !.
+flattenNoRepetitions(X, [X]).
+
+union([], L, L).
+union([X|L1], L2, L3) :- member(X, L2), !, union(L1, L2, L3).
+union([X|L1], L2, [X|L3]) :- union(L1, L2, L3).
+
 % Exercice 2
 
 casas :-
